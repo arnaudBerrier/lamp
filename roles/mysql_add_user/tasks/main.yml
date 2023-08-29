@@ -1,7 +1,7 @@
 ---
 - name: Install mysql
   include_role:
-    name: aminvakil.lamp.mysql_initial
+    name: lamp.mysql_initial
   when: mysql_initial | bool
 
 - name: Check if mysql is installed or not

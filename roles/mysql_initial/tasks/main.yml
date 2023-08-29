@@ -27,7 +27,7 @@
   block:
     - name: Include vault
       include_vars: defaults/vault.yml
-      no_log: true
+      no_log: false
       tags: default_vault
 
     - name: Change root user password on first run
